@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 996;
   background: var(--theme-green-400);
   width: 50px;
-  aspect-ratio: 1;
+  height: 50px;
   border-bottom-left-radius: 50% ;
   border-bottom-right-radius: 50%;
   border-top-right-radius: 50%;
