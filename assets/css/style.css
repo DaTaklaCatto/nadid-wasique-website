@@ -433,7 +433,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero p span {
-  color: var(--theme-green-600);
   letter-spacing: 1px;
   border-bottom: 3px solid var(--theme-white-900);
 }
