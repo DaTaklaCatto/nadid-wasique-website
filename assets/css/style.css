@@ -519,40 +519,63 @@ section {
 /*-=-=-=-=-=-=-=-=-=-=-=-=-= 
   About Section Styling
 -=-=-=-=-=-=-=-=-=-=-=-=-=*/
-
-.about .content h3 {
-  font-weight: 700;
-  font-size: 26px;
-  color: var(--theme-green-400);
+#about {
+  padding: 80px 0;
 }
-
-.about .profile-pic{
-  border-left: 5px solid var(--theme-green-400);
-  border-bottom: 6px solid var(--theme-green-400);
+#about .about-content {
+  padding-top: 40px;
 }
-
-.about .content ul {
+#about .about-content .space-below {
+  margin-bottom: 50px;
+}
+#about .about-content ul {
   list-style: none;
   padding: 0;
 }
-.about .content ul li {
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
+#about .about-content ul li {
+  padding-bottom: 10px;
 }
-.about .content ul strong {
-  margin-right: 10px;
-}
-.about .content ul i {
-  font-size: 16px;
-  margin-right: 5px;
+#about .about-content ul li i {
+  font-size: 20px;
+  padding-right: 4px;
   color: var(--theme-green-400);
-  line-height: 0;
 }
-.about .content .last-child {
-  margin-bottom: 3rem;
+#about .about-img {
+  width : 350px;
+  position: relative;
+  margin: 30px 30px 30px 30px;
 }
-
+#about .about-img img {
+  width: 100%;
+  border: 8px solid var(--theme-green-400);
+  transition: 0.5s;
+}
+#about .about-img img:hover {
+  width: 100%;
+  transform: scale(1.03);
+}
+#about .about-img::before {
+  position: absolute;
+  left: -31px;
+  top: -30px;
+  width: 90%;
+  height: 92%;
+  z-index: -1;
+  content: "";
+  background-color: var(--theme-blue-700);
+  transition: 0.5s;
+}
+#about .about-img::after {
+  position: absolute;
+  right: -31px;
+  bottom: -30px;
+  width: 90%;
+  height: 92%;
+  z-index: -1;
+  content: "";
+  background-color: var(--theme-blue-700);
+  transition: 0.5s;
+}
 /*-=-=-=-=-=-=-=-=-=-=-=-=-= 
   Facts Section Styling
 -=-=-=-=-=-=-=-=-=-=-=-=-=*/
@@ -850,53 +873,35 @@ section {
   margin-top: 40px;
 }
 
-.details-title {
-  padding-bottom: 30px;
-}
+/*-=-=-=-=-=-=-=-=-=-=-=-=-= 
+  Detailed About Section Styling
+-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
-.details-title h2 {
-  font-size: 32px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  padding-bottom: 10px;
-  position: relative;
+.detailed-about .content h3 {
+  font-weight: 700;
+  font-size: 26px;
   color: var(--theme-green-400);
 }
-
-.details-title h2::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 5rem;
-  height: 3px;
-  background: var(--theme-white-900);
-  bottom: 0;
-}
-
-.details-subtitle h3{
-  font-size: 1.25rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 5px;
-  padding-bottom: 5px;
-  position: relative;
-  color: var(--theme-green-400);
-}
-
-.details-img{
-  max-width: 35rem;
-  border-right: 0.5rem solid var(--theme-green-400) ;
-  border-bottom: 0.5rem solid var(--theme-green-400);
-}
-
-.details ul, .details li {
+.detailed-about .content ul {
   list-style: none;
+  padding: 0;
 }
-
-.details ul, .details li a{
-  font-size: 1rem;
-
+.detailed-about .content ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.detailed-about .content ul strong {
+  margin-right: 10px;
+}
+.detailed-about .content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: var(--theme-green-400);
+  line-height: 0;
+}
+.detailed-about .content p:last-child {
+  margin-bottom: 0;
 }
 
 /* 
