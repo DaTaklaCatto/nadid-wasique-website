@@ -24,8 +24,6 @@
   --theme-green-600: rgb(41, 131, 46);
   --theme-green-500: rgb(51, 161, 66);
   --theme-green-400: rgb(57, 181, 74);
-
-  --txt-size-normal: 20px;
 }
 
 /*-=-=-=-=-=-=-=-=-=-=-=-=-= 
@@ -312,7 +310,7 @@ h6 {
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
-  border-radius: 50px;
+  border-radius: 20px;
   background: var(--theme-white-700);
   height: 56px;
   width: 100%;
@@ -975,15 +973,8 @@ section {
 /* 
   Success Page Styling
  */
-#success {
-  padding: 0;
-  margin: 0;
-  height: 100vh;
-}
-
-#success .card {
-  background: #fff;
-  display: flex;
+.popup-success {
+  display: block;
 }
 
 /*--------------------------------------------------------------
