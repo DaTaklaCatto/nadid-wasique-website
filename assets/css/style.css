@@ -151,8 +151,8 @@ h6 {
   position: fixed;
   background: var(--theme-green-400);
   border: 2px solid var(--theme-green-400);
-  border-radius: 100vw;
-  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  padding: 0.5rem 2.5rem;
   color: var(--theme-white-900);
   transition: all 1s ease;
 }
@@ -541,6 +541,10 @@ section {
 -=-=-=-=-=-=-=-=-=-=-=-=-=*/
 #about {
   padding: 80px 0;
+}
+
+#about .underline {
+  border-bottom: 2px solid var(--theme-green-400);
 }
 
 #about .about-content {
@@ -1060,9 +1064,40 @@ section {
 
 /* 
   Success Page Styling
- */
-.popup-success {
+*/
+
+#success {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  height: 100vh;
+}
+
+#success .popup-success {
   display: block;
+  background: var(--theme-blue-700);
+  padding: 30px 30px;
+  border-radius: 20px;
+}
+
+#success .popup-success a {
+  display: flex;
+}
+
+#success .popup-success a p {
+  border-bottom: 2px solid var(--theme-white-900);
+}
+
+#success .popup-success h3 {
+  border: 2px solid var(--theme-green-400);
+  padding: 3px 3px;
+}
+
+#success .social-links {
+  display: flex;
+  font-size: 30px;
+  justify-content: space-between;
 }
 
 /*--------------------------------------------------------------
