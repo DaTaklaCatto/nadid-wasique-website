@@ -1025,10 +1025,16 @@ section {
 
 .contact .form-input input {
   height: 44px;
+  color: #fff;
+}
+
+.contact .form-input input::placeholder {
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .contact .form-input textarea {
   padding: 10px 12px;
+  color: #fff;
 }
 
 .contact .form-input button[type="submit"] {
