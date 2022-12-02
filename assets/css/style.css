@@ -838,6 +838,26 @@ section {
   text-transform: uppercase;
 }
 
+@media (max-width: 1000px) {
+  #projects {
+    height: 250vh;
+  }
+
+  #projects .container .projects-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  #projects .container .card {
+    height: 15rem;
+  }
+
+  #projects .container .featured {
+    height: 20rem;
+  }
+}
+
 /*-=-=-=-=-=-=-=-=-=-=-=-=-= 
   Services Section Styling
 -=-=-=-=-=-=-=-=-=-=-=-=-=*/
