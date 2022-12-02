@@ -6,4 +6,4 @@ This is the code for my official <a href="https://nadid-wasique.netlify.app">web
 
 <img src="https://media.discordapp.net/attachments/1013108985295028254/1013109157798367313/ss-web.png?quality=lossless" alt="Website Screenshot">
 
-© [Nadid Wasique](https://github.com/NWR57)
+© [Nadid Wasique](https://github.com/DaTaklaCatto)
