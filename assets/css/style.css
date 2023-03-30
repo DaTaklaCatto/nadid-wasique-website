@@ -442,6 +442,12 @@ h6 {
   color: var(--theme-white-900);
 }
 
+#hero h1::after {
+  content: "/DaTaklaCatto";
+  font-size: 26px;
+  color: var(--theme-black-400);
+}
+
 #hero h3 {
   color: var(--theme-green-400);
 }
